@@ -19,8 +19,9 @@ cd /home/diego/linux
 sudo umount /dev/sda1
 sudo umount /dev/sda2
 
-${BORRAR} mnt/fat32
-${BORRAR} mnt/ext4
+#${BORRAR} mnt/fat32
+#${BORRAR} mnt/ext4
+${BORRAR} mnt
 
 mkdir mnt
 mkdir mnt/fat32

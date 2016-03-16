@@ -16,8 +16,8 @@ cd /home/diego/linux
 ######################
 # C) DESMONTAR, RESTAURAR DIRECTORIOS Y MONTAR EL DISPOSITIVO.
 ######################
-sudo umount /dev/sda1
-sudo umount /dev/sda2
+sudo umount /dev/sda1 >& /dev/nul
+sudo umount /dev/sda2 >& /dev/nul
 
 #${BORRAR} mnt/fat32
 #${BORRAR} mnt/ext4

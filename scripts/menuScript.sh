@@ -21,4 +21,5 @@ cd /home/diego/linux
 #make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcm2709_defconfig
 
 #Configuración personalizada.
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig
+#make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- xconfig
